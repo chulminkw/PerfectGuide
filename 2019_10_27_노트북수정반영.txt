@@ -8,7 +8,7 @@
 
     2. 사이킷런 버전이 업그레이드 되면서 아래의 GridSearchCV 객체의 cv_results_에서 mean_train_score는 더이상 제공되지 않음.
 
-     - GridSearchCV 객체의 cv_results_에서 아래와 같이 'mean_train_score'를 제거해 주십시요
+     - 만약 4장 결정 트리 소스코드에서 GridSearchCV 객체의 cv_results_ 접근 시 오류가 발생하면 아래와 같이 'mean_train_score'를 제거해 주십시요
       기존 : cv_results_df[['param_max_depth', 'mean_test_score', 'mean_train_score']]
       수정 : cv_results_df[['param_max_depth', 'mean_test_score']]
     
