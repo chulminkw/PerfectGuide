@@ -1,15 +1,15 @@
-¼öÁ¤ ¹öÀü 01 - ¼öÁ¤ ÀÏÀÚ(2019.10.27)
+ìˆ˜ì • ë²„ì „ 01 - ìˆ˜ì • ì¼ì(2019.10.27)
 
-    1. 4Àå °áÁ¤Æ®¸®ÀÇ human activity µ¥ÀÌÅÍ ¼¼Æ®¿¡ Áßº¹µÈ Feature ¸íÀ¸·Î ÀÎÇÏ¿© ½Å±Ô ¹öÀüÀÇ Pandas¿¡¼­ Duplicate name ¿¡·¯¸¦ ¹ß»ı
+    1. 4ì¥ ê²°ì •íŠ¸ë¦¬ì˜ human activity ë°ì´í„° ì„¸íŠ¸ì— ì¤‘ë³µëœ Feature ëª…ìœ¼ë¡œ ì¸í•˜ì—¬ ì‹ ê·œ ë²„ì „(0.25ì´ìƒ)ì˜ Pandasì—ì„œ Duplicate name ì—ëŸ¬ë¥¼ ë°œìƒ
 
-     - Áßº¹ feature¸í¿¡ ´ëÇØ¼­ ¿øº» feature ¸í¿¡ '_1(¶Ç´Â2)'¸¦ Ãß°¡·Î ºÎ¿©ÇÏ´Â ÇÔ¼öget_new_feature_name_df() »ı¼º
-     - get_human_dataset() ÇÔ¼ö´Â Áßº¹µÈ feature¸íÀ» »õ·Ó°Ô ¼öÁ¤ÇÏ´Â get_new_feature_name_df() ÇÔ¼ö¸¦ ¹İ¿µÇÏ¿© ¼öÁ¤
-     - ¼öÁ¤ ¹İ¿µµÈ ¼Ò½º ÁÖÇÇÅÍ ³ëÆ®ºÏ ¸í: 4.2 °áÁ¤ Æ®¸®_Ver01.ipynb, 4.3_¾Ó»óºíÇĞ½À_4.4_·£´ıÆ÷·¹½ºÆ®_4.5_GBM_Ver01
+     - ì¤‘ë³µ featureëª…ì— ëŒ€í•´ì„œ ì›ë³¸ feature ëª…ì— '_1(ë˜ëŠ”2)'ë¥¼ ì¶”ê°€ë¡œ ë¶€ì—¬í•˜ëŠ” í•¨ìˆ˜get_new_feature_name_df() ìƒì„±
+     - get_human_dataset() í•¨ìˆ˜ëŠ” ì¤‘ë³µëœ featureëª…ì„ ìƒˆë¡­ê²Œ ìˆ˜ì •í•˜ëŠ” get_new_feature_name_df() í•¨ìˆ˜ë¥¼ ë°˜ì˜í•˜ì—¬ ìˆ˜ì •
+     - ìˆ˜ì • ë°˜ì˜ëœ ì†ŒìŠ¤ ì£¼í”¼í„° ë…¸íŠ¸ë¶ ëª…: 4.2 ê²°ì • íŠ¸ë¦¬_Ver01.ipynb, 4.3_ì•™ìƒë¸”í•™ìŠµ_4.4_ëœë¤í¬ë ˆìŠ¤íŠ¸_4.5_GBM_Ver01
 
-    2. »çÀÌÅ¶·± ¹öÀüÀÌ ¾÷±×·¹ÀÌµå µÇ¸é¼­ ¾Æ·¡ÀÇ GridSearchCV °´Ã¼ÀÇ cv_results_¿¡¼­ mean_train_score´Â ´õÀÌ»ó Á¦°øµÇÁö ¾ÊÀ½.
+    2. ì‚¬ì´í‚·ëŸ° ë²„ì „ì´ ì—…ê·¸ë ˆì´ë“œ ë˜ë©´ì„œ ì•„ë˜ì˜ GridSearchCV ê°ì²´ì˜ cv_results_ì—ì„œ mean_train_scoreëŠ” ë”ì´ìƒ ì œê³µë˜ì§€ ì•ŠìŒ.
 
-     - GridSearchCV °´Ã¼ÀÇ cv_results_¿¡¼­ ¾Æ·¡¿Í °°ÀÌ 'mean_train_score'¸¦ Á¦°ÅÇØ ÁÖ½Ê½Ã¿ä
-      ±âÁ¸ : cv_results_df[['param_max_depth', 'mean_test_score', 'mean_train_score']]
-      ¼öÁ¤ : cv_results_df[['param_max_depth', 'mean_test_score']]
+     - GridSearchCV ê°ì²´ì˜ cv_results_ì—ì„œ ì•„ë˜ì™€ ê°™ì´ 'mean_train_score'ë¥¼ ì œê±°í•´ ì£¼ì‹­ì‹œìš”
+      ê¸°ì¡´ : cv_results_df[['param_max_depth', 'mean_test_score', 'mean_train_score']]
+      ìˆ˜ì • : cv_results_df[['param_max_depth', 'mean_test_score']]
     
-     - ¼öÁ¤ ¹İ¿µµÈ ¼Ò½º ÁÖÇÇÅÍ ³ëÆ®ºÏ ¸í: 4.2 °áÁ¤ Æ®¸®_Ver01.ipynb
+     - ìˆ˜ì • ë°˜ì˜ëœ ì†ŒìŠ¤ ì£¼í”¼í„° ë…¸íŠ¸ë¶ ëª…: 4.2 ê²°ì • íŠ¸ë¦¬_Ver01.ipynb
