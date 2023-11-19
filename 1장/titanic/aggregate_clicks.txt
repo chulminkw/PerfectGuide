@@ -1,0 +1,25 @@
+serid 	sessionid 	productname 	pagetype 	clicktime 	referrer 	productprice
+1039 	1 	sneakers 	home 	2009-07-29 20:17:59 	Company1 	100
+1039 	2 	books 	home 	2009-04-21 13:17:59 	Company4 	300
+1039 	3 	television 	home 	2009-05-23 13:17:59 	Company2 	500
+1039 	4 	envelopes 	home 	2009-07-16 11:17:59 	Company3 	10
+1039 	4 	envelopes 	home1 	2009-07-16 11:18:16 	Company3 	10
+1039 	4 	envelopes 	page1 	2009-07-16 11:18:18 	Company3 	10
+1039 	5 	bookcases 	home 	2009-08-19 22:17:59 	Company5 	150
+1039 	5 	bookcases 	home1 	2009-08-19 22:18:02 	Company5 	150
+1039 	5 	bookcases 	page1 	2009-08-19 22:18:05 	Company5 	150
+1039 	5 	bookcases 	page2 	2009-08-22 04:20:05 	Company5 	150
+1039 	5 	bookcases 	checkout 	2009-08-24 14:30:05 	Company5 	150
+1039 	5 	bookcases 	page2 	2009-08-27 23:03:05 	Company5 	150
+1040 	1 	tables 	home 	2009-07-29 20:17:59 	Company5 	250
+1040 	2 	Appliances 	home 	2009-04-21 13:17:59 	Company6 	1500
+1040 	3 	laptops 	home 	2009-05-23 13:17:59 	Company7 	800
+1040 	4 	chairs 	home 	2009-07-16 11:17:59 	Company3 	400
+1040 	4 	chairs 	home1 	2009-07-16 11:18:16 	Company3 	400
+1040 	4 	chairs 	page1 	2009-07-16 11:18:18 	Company3 	400
+1040 	5 	cellphones 	home 	2009-08-19 22:17:59 	Company8 	600
+1040 	5 	cellphones 	home1 	2009-08-19 22:18:02 	Company8 	600
+1040 	5 	cellphones 	page1 	2009-08-19 22:18:05 	Company8 	600
+1040 	5 	cellphones 	page2 	2009-08-22 04:20:05 	Company8 	600
+1040 	5 	cellphones 	checkout 	2009-08-24 14:30:05 	Company8 	600
+1040 	5 	cellphones 	page2 	2009-08-27 23:03:05 	Company8 	600
